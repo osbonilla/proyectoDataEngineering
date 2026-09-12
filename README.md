@@ -1,6 +1,6 @@
 # Geohabilitación de Pipelines de Datos
 
-## Proyecto de Ingeniería de Datos  - USFQ
+## Proyecto de Ingeniería de Datos - USFQ
 
 **Evelyn Nathaly Bermeo Granda**
 
@@ -30,6 +30,7 @@
 - [Resultados y valor generado](#resultados-y-valor-generado)
 - [Conclusiones](#conclusiones)
 - [Estructura del repositorio](#estructura-del-repositorio)
+- [Documentación oficial](#documentación-oficial)
 
 ---
 
@@ -200,8 +201,6 @@ flowchart TD
 
 ![Arquitectura del Caso 1](www/caso-01/arquitectura.png)
 
-
-
 ---
 
 ### Caso 2: Integración y estandarización de proyectos nacionales
@@ -321,7 +320,6 @@ flowchart TD
 
 ![Arquitectura del Caso 3](www/caso-03/arquitectura.png)
 
-
 ---
 
 ### Comparación de los tres casos
@@ -342,9 +340,7 @@ Los tres casos operan sobre una misma infraestructura geoespacial empresarial. E
 
 Plataforma geoespacial empresarial que centraliza el almacenamiento, la publicación de servicios y la gestión de contenido, y sirve como base sobre la cual operan tanto los procesos batch como los de tiempo real.
 
-
 ![Arquitectura base de ArcGIS Enterprise](www/arquitectura/enterprise-base.png)
-
 
 ### Enterprise + Data Pipelines
 
@@ -352,22 +348,17 @@ Incorpora la capacidad de diseñar flujos de ingesta, transformación e integrac
 
 ![Arquitectura de ArcGIS Enterprise con Data Pipelines](www/arquitectura/enterprise-data-pipelines.png)
 
-
 ### Enterprise + Velocity
 
 Añade la capacidad de recibir, procesar y actualizar información en tiempo real, manteniendo sincronizada la representación geoespacial de fenómenos dinámicos.
 
-
 ![Arquitectura de ArcGIS Enterprise con Velocity](www/arquitectura/enterprise-velocity.png)
-
 
 ### Arquitectura integrada
 
 Combina Enterprise, Data Pipelines, Velocity e Image Server en una sola plataforma capaz de atender distintos patrones de datos —batch, programado, empresarial, geográfico, tiempo real y procesamiento de imágenes— sin generar silos tecnológicos.
 
-
 ![Arquitectura integrada de la plataforma geoespacial](www/arquitectura/enterprise-integrated.png)
-
 
 ---
 
@@ -414,28 +405,42 @@ ArcGIS Data Pipelines resuelve los escenarios batch y programados; ArcGIS Veloci
 .
 ├── README.md
 │
-├── www/
-│   ├── caso-01/
-│   │   ├── escena-luminarias.png
-│   │   ├── integracion-erp.png
-│   │   ├── pipeline-data-pipelines.png
-│   │   └── arquitectura.png
-│   │
-│   ├── caso-02/
-│   │   ├── pipeline-integracion.png
-│   │   ├── dashboard-proyectos.png
-│   │   └── arquitectura.png
-│   │
-│   ├── caso-03/
-│   │   ├── velocity-pipeline.png
-│   │   ├── mapa-embarcaciones.png
-│   │   └── arquitectura.png
-│   │
-│   └── arquitectura/
-│       ├── enterprise-base.png
-│       ├── enterprise-data-pipelines.png
-│       ├── enterprise-velocity.png
-│       └── enterprise-integrated.png
-│
-└── 
+└── www/
+    ├── caso-01/
+    │   ├── escena-luminarias.png
+    │   ├── integracion-erp.png
+    │   ├── pipeline-data-pipelines.png
+    │   └── arquitectura.png
+    │
+    ├── caso-02/
+    │   ├── pipeline-integracion.png
+    │   ├── dashboard-proyectos.png
+    │   └── arquitectura.png
+    │
+    ├── caso-03/
+    │   ├── velocity-pipeline.png
+    │   ├── mapa-embarcaciones.png
+    │   └── arquitectura.png
+    │
+    └── arquitectura/
+        ├── enterprise-base.png
+        ├── enterprise-data-pipelines.png
+        ├── enterprise-velocity.png
+        └── enterprise-integrated.png
 ```
+
+---
+
+## Documentación oficial
+
+Recursos oficiales de Esri para profundizar en las tecnologías utilizadas en este proyecto:
+
+### ArcGIS Data Pipelines
+
+- [Documentación técnica de ArcGIS Data Pipelines](https://doc.esri.com/es/arcgis-data-pipelines/latest/index.html) — instalación, primeros pasos y tareas esenciales.
+- [Recursos y tutoriales de ArcGIS Data Pipelines](https://www.esri.com/es-es/arcgis/products/arcgis-data-pipelines/resources) — tutoriales, preguntas frecuentes y blog del producto.
+
+### ArcGIS Velocity
+
+- [Documentación técnica de ArcGIS Velocity](https://doc.esri.com/en/arcgis-velocity) — configuración, primeros pasos y tareas esenciales (en inglés).
+- [Recursos y tutoriales de ArcGIS Velocity](https://www.esri.com/es-es/arcgis/products/arcgis-velocity/resources) — tutoriales, opciones de implementación y comunidad.
