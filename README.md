@@ -130,9 +130,13 @@ flowchart TB
     class ESC,DASH,MAPA salida;
 ```
 
-- **ArcGIS Data Pipelines** resuelve los patrones batch y programados: integración del ERP (Caso 1) y de fuentes multi-departamentales (Caso 2).
-- **ArcGIS Velocity** resuelve el patrón de tiempo real: posición de embarcaciones (Caso 3).
-- **ArcGIS Enterprise** provee la infraestructura común de almacenamiento, publicación y visualización para ambos motores.
+- **ArcGIS Data Pipelines:** automatiza la **integración, transformación y estandarización de datos batch**, conectando el ERP en el **Caso 1** y múltiples fuentes departamentales en el **Caso 2**.
+
+- **ArcGIS Velocity:** permite la **ingesta, procesamiento y análisis continuo de datos en tiempo real**, aplicado al monitoreo de embarcaciones en el **Caso 3**.
+
+- **ArcGIS Enterprise:** proporciona la **infraestructura geoespacial común para almacenar, publicar, gestionar y visualizar** la información generada por ambos flujos.
+
+> **En conjunto, estas tecnologías permiten integrar procesos batch y streaming dentro de una misma arquitectura geoespacial.**
 
 ---
 
