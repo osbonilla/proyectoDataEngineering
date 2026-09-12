@@ -194,16 +194,13 @@ flowchart TD
 
 *Escena web utilizada por el responsable de operaciones para monitorear el estado de las luminarias.*
 
-<details>
-<summary>Ver más evidencia: integración del ERP, pipeline y arquitectura</summary>
-
 ![Visor de estadísticas de integración del ERP](www/caso-01/integracion-erp.png)
 
 ![Pipeline desarrollado en ArcGIS Data Pipelines](www/caso-01/pipeline-data-pipelines.png)
 
 ![Arquitectura del Caso 1](www/caso-01/arquitectura.png)
 
-</details>
+
 
 ---
 
@@ -269,14 +266,9 @@ flowchart TD
 
 *Dashboard alimentado diariamente por el feature layer consolidado.*
 
-<details>
-<summary>Ver más evidencia: pipeline de integración y arquitectura</summary>
-
 ![Pipeline de integración completo](www/caso-02/pipeline-integracion.png)
 
 ![Arquitectura del Caso 2](www/caso-02/arquitectura.png)
-
-</details>
 
 ---
 
@@ -325,14 +317,10 @@ flowchart TD
 
 *Mapa web con la ubicación y trayectoria de las embarcaciones, actualizado en tiempo real.*
 
-<details>
-<summary>Ver más evidencia: flujo en Velocity y arquitectura</summary>
-
 ![Flujo desarrollado en ArcGIS Velocity](www/caso-03/velocity-pipeline.png)
 
 ![Arquitectura del Caso 3](www/caso-03/arquitectura.png)
 
-</details>
 
 ---
 
@@ -354,45 +342,32 @@ Los tres casos operan sobre una misma infraestructura geoespacial empresarial. E
 
 Plataforma geoespacial empresarial que centraliza el almacenamiento, la publicación de servicios y la gestión de contenido, y sirve como base sobre la cual operan tanto los procesos batch como los de tiempo real.
 
-<details>
-<summary>Ver diagrama de arquitectura base</summary>
 
 ![Arquitectura base de ArcGIS Enterprise](www/arquitectura/enterprise-base.png)
 
-</details>
 
 ### Enterprise + Data Pipelines
 
 Incorpora la capacidad de diseñar flujos de ingesta, transformación e integración de datos —batch y programados— directamente sobre la infraestructura de Enterprise, publicando los resultados como feature layers listos para consumo.
 
-<details>
-<summary>Ver diagrama de arquitectura con Data Pipelines</summary>
-
 ![Arquitectura de ArcGIS Enterprise con Data Pipelines](www/arquitectura/enterprise-data-pipelines.png)
 
-</details>
 
 ### Enterprise + Velocity
 
 Añade la capacidad de recibir, procesar y actualizar información en tiempo real, manteniendo sincronizada la representación geoespacial de fenómenos dinámicos.
 
-<details>
-<summary>Ver diagrama de arquitectura con Velocity</summary>
 
 ![Arquitectura de ArcGIS Enterprise con Velocity](www/arquitectura/enterprise-velocity.png)
 
-</details>
 
 ### Arquitectura integrada
 
 Combina Enterprise, Data Pipelines, Velocity e Image Server en una sola plataforma capaz de atender distintos patrones de datos —batch, programado, empresarial, geográfico, tiempo real y procesamiento de imágenes— sin generar silos tecnológicos.
 
-<details>
-<summary>Ver diagrama de arquitectura integrada</summary>
 
 ![Arquitectura integrada de la plataforma geoespacial](www/arquitectura/enterprise-integrated.png)
 
-</details>
 
 ---
 
