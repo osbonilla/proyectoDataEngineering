@@ -50,14 +50,14 @@ En los tres casos, **ArcGIS Enterprise** actúa como infraestructura geoespacial
 
 ## Objetivo
 
-Evidenciar cómo la geohabilitación de pipelines de datos permite conectar sistemas empresariales, fuentes externas y datos en tiempo real con el territorio, generando información espacial confiable para el monitoreo operativo y la toma de decisiones.
+Demostrar cómo la geohabilitación de pipelines de datos permite integrar y procesar información proveniente de sistemas empresariales, fuentes externas y flujos en tiempo real, mediante procesos batch y streaming, generando información geoespacial confiable para el monitoreo y la toma de decisiones.
 
 **Objetivos específicos:**
 
-- Conectar un sistema ERP con el entorno geoespacial para reflejar el ciclo completo de una incidencia de campo.
-- Integrar y estandarizar información geográfica proveniente de múltiples departamentos y fuentes externas en un feature layer consolidado.
-- Procesar y visualizar información en tiempo real para apoyar la seguridad y la toma de decisiones.
-- Evidenciar el rol de ArcGIS Enterprise como infraestructura común para escenarios batch y de tiempo real.
+- Integrar un sistema ERP con el entorno geoespacial para gestionar y visualizar el ciclo completo de una incidencia de campo, desde su detección hasta su resolución.
+- Integrar, transformar y estandarizar información geográfica proveniente de múltiples departamentos y fuentes externas, consolidándola en un único Feature Layer para su análisis y visualización.
+- Procesar y visualizar datos en tiempo real sobre la ubicación y movimiento de embarcaciones, generando información geoespacial que apoye el monitoreo y la toma de decisiones.
+- Demostrar la integración de ArcGIS Enterprise, ArcGIS Data Pipelines y ArcGIS Velocity como una arquitectura común para el procesamiento de datos tanto batch como en tiempo real.
 
 ---
 
