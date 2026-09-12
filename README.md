@@ -391,9 +391,15 @@ Combina Enterprise, Data Pipelines, Velocity e Image Server en una sola platafor
 
 ## Conclusiones
 
-Los tres casos abordan necesidades distintas —incidencias de campo, consolidación nacional y seguridad en tiempo real— pero comparten un mismo principio: la geohabilitación conecta los pipelines de datos con el territorio, transformando información aislada en información contextualizada y utilizable.
+Los tres casos demuestran cómo una arquitectura de datos geoespaciales puede responder a distintas necesidades y velocidades de información: gestionar incidencias de campo, integrar información de múltiples áreas y monitorear eventos en tiempo real.
 
-ArcGIS Data Pipelines resuelve los escenarios batch y programados; ArcGIS Velocity resuelve el escenario de tiempo real; y ArcGIS Enterprise provee la infraestructura común que permite que ambos coexistan dentro de una misma arquitectura geoespacial empresarial.
+La geohabilitación aporta el contexto espacial a los datos, permitiendo pasar de información dispersa y aislada a información integrada, contextualizada y útil para la toma de decisiones.
+
+ArcGIS Data Pipelines permite automatizar los procesos de integración y transformación batch, mientras que ArcGIS Velocity incorpora la ingesta y el procesamiento de datos en tiempo real.
+
+En conjunto, estas capacidades pueden integrarse dentro del ecosistema ArcGIS Enterprise, conformando una arquitectura geoespacial capaz de soportar procesos batch y streaming para diferentes necesidades operativas.
+
+El valor no está únicamente en integrar los datos, sino en agregarles contexto espacial y entregarlos con la velocidad necesaria para convertirlos en decisiones.
 
 > **El dato informa. El territorio contextualiza. La Ingeniería de Datos lo conecta.**
 
