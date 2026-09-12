@@ -462,7 +462,5 @@ ArcGIS Data Pipelines resuelve los escenarios batch y programados; ArcGIS Veloci
 │       ├── enterprise-velocity.png
 │       └── enterprise-integrated.png
 │
-└── ...
+└── 
 ```
-
-> **Nota:** algunas rutas de imagen se mantienen como referencia aunque la captura correspondiente todavía no se haya incorporado a `www/`. Al añadir cada archivo con el nombre indicado, la imagen se mostrará automáticamente en este README.
