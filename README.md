@@ -324,11 +324,11 @@ flowchart TD
 
 ### Comparación de los tres casos
 
-| Caso | Problema | Patrón de datos | Tecnología principal | Mecanismo de actualización | Visualización |
+| **Caso** | **Necesidad** | **Patrón de datos** | **Tecnología** | **Flujo de procesamiento** | **Resultado** |
 |---|---|---|---|---|---|
-| **1 · Luminarias** | Gestión de incidencias en campo | Batch + actualización dirigida por eventos | ArcGIS Data Pipelines | Pipeline sobre ERP + webhook de retorno | Escena web |
-| **2 · Proyectos nacionales** | Integración de fuentes heterogéneas | Batch programado (diario) | ArcGIS Data Pipelines | Pipeline programado multi-fuente | Dashboard |
-| **3 · Embarcaciones** | Monitoreo de movimiento | Tiempo real | ArcGIS Velocity | Procesamiento continuo de eventos | Mapa web |
+| **1 · Luminarias** | Gestión del ciclo de incidencias en campo | Batch + eventos | ArcGIS Data Pipelines | ERP → ETL → Feature Layer → Webhook | Escena web actualizada |
+| **2 · Proyectos nacionales** | Integración y homogeneización de múltiples fuentes | Batch programado | ArcGIS Data Pipelines | Feature Layers + JSON → ETL → Feature Layer consolidado | Dashboard de monitoreo |
+| **3 · Embarcaciones** | Monitoreo de ubicación y movimiento | Streaming / tiempo real | ArcGIS Velocity | Feed → procesamiento continuo → salida geoespacial | Mapa web en tiempo real |
 
 ---
 
